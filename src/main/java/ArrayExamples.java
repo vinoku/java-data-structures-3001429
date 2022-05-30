@@ -10,16 +10,17 @@ public class ArrayExamples {
     weekdays[0] = "Monday";
     System.out.println(Arrays.toString(weekdays));
 
-    weekdays = new String[]{"Mon", "Tue", "Wed"};
+    weekdays = new String[]{"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     System.out.println(Arrays.toString(weekdays));
 
-    for(String day : weekdays) {
+    for (String day : weekdays) {
       System.out.println("Week day: " + day);
     }
 
-    for(int i = 0; i < weekdays.length; i++) {
+    for (int i = 0; i < weekdays.length; i++) {
       weekdays[i] = weekdays[i].toUpperCase();
     }
+
     System.out.println(Arrays.toString(weekdays));
 
   }
