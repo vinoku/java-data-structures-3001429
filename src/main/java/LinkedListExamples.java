@@ -20,7 +20,7 @@ public class LinkedListExamples {
 
     List<String> synchronizedShoppingList = Collections.synchronizedList(shoppingList);
     System.out.println(synchronizedShoppingList);
-    
+
   }
 
 }
