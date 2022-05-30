@@ -7,7 +7,7 @@ public class QueueExamples {
 
   public static void main(String[] args) {
 
-    Queue<String> queue = new ArrayDeque<>();
+    Queue<String> queue = new ArrayDeque<>();  // LinkedList, PriorityQueue (RetrievalOrder ist natural)
     queue.offer("Person One");
     queue.offer("Person Two");
     queue.offer("Person Three");
@@ -15,7 +15,7 @@ public class QueueExamples {
     System.out.println(queue.peek());
     queue.poll();
     System.out.println(queue);
-    
+
   }
 
 }
